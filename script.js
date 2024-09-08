@@ -166,3 +166,8 @@ function toggleDropdown6() {
     toggleIcon.innerHTML = "&times;";
   }
 } 
+
+/* ---------------  Disable context menu ------------ */ 
+ document.addEventListener("contextmenu",function(e){
+  e.preventDefault()
+},false) 
