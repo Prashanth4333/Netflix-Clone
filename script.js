@@ -168,6 +168,6 @@ function toggleDropdown6() {
 } 
 
 /* ---------------  Disable context menu ------------ */ 
- document.addEventListener("contextmenu",function(e){
+/* document.addEventListener("contextmenu",function(e){
   e.preventDefault()
-},false) 
+},false) */
